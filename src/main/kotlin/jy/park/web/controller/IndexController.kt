@@ -10,7 +10,14 @@ class IndexController {
 
     @GetMapping("/")
     fun index(model: Model): String {
-        model["title"] = "web-kotlin-jpa"
+        model["title"] = "JunyounPark's Intro"
         return "index";
     }
+
+
+//    @GetMapping("/comeon")
+//    fun comeon(model: Model): String {
+//        model["title"] = "second page"
+//        return "/page1/comeon"
+//    }
 }
